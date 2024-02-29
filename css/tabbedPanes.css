@@ -1,0 +1,73 @@
+.divTabbed {
+    font-family: 'Roboto';
+    max-width: 1270px;
+    margin: auto;
+    display: block;
+}
+
+.divTabbed > input {
+    display: none;
+}
+
+.divTabbed > input:not(:checked) + section > div {
+    display: none;
+}
+
+.divTabbed > section > div {
+    float: right;
+    width: 100%;
+    margin: 2.18em 0 0 -100%;
+    box-sizing: border-box;
+    padding: 0.5em 0.75em;
+    border: 2px inset #4d0000;
+    border-radius: 4px;
+    box-shadow: 0 0 0.5em rgba(0,0,0,0.0625);
+    background-color: #ff8080;  
+    position: relative;
+    z-index: 1;  
+}
+
+.divTabbed > section > h1 {
+    float: left;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.5em 0.5em 0;
+    overflow: hidden;
+    font-size: 1em;
+    font-weight: normal;  
+}
+
+.divTabbed > section > h1 > label {
+    cursor: pointer;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    display: block;
+    color: #dfdfdf;
+    padding: 0.25em 0.75em;
+    border: 2px inset #4d0000;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: 0 0 0.5em rgba(0,0,0,0.0625);
+    background-color: #660000;  
+}
+
+.divTabbed > section > h1 > label:hover {
+    background-image: linear-gradient(#660000, #ff8080);
+}
+
+.divTabbed > input:checked + section > h1 > label {
+    transition: 0.5s;
+    background-color: #ff8080;
+    color: black;
+}
+
+.divTabbed > input:first-child + section > h1 {
+    padding-left: 1em;
+}
+
+.divTabbed > input:checked + section > h1 {
+    position: relative;
+    z-index: 2;
+}

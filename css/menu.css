@@ -1,0 +1,218 @@
+#big_bar{
+  background-color: #333;
+  height: 6em;
+}
+
+.logo{
+  background-color: #333;
+  height: 6em;
+  float: left;
+	margin-left: 5%;
+	margin-right: 2.5%;
+}
+
+
+
+.logo_image{
+	width: 9em;
+	height: 6em;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navigation_menu{
+  background-color: #333;
+  height: 6em;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navigation_menu ul{
+  list-style-type: none;
+  margin: 0px;
+}
+
+.navigation_menu li{
+	float: left;
+}
+
+.navigation_menu a, .dropbtn {
+  display: inline-block;
+  color: red;
+  text-align: center;
+  padding: 1.95em 0.9em;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.navigation_menu a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.login{
+  background-color: #333;
+  height: 6em;
+  font-family: 'Roboto';
+}
+
+.campoinput{
+  margin-right: 8px;
+  border: 4px inset;
+  border-color: #ffcccc;  
+  outline: none;
+  border-radius: 5px;
+  padding: 6px 0px 6px 5px;
+}
+
+.campoinput.pwd{
+  width: 100px;
+}
+
+.campoinput:focus{
+  transition: 0.5s;
+  border-color: red;
+}
+
+
+.login_logout{
+  color: #dfdfdf;
+  border: 2px outset #4d0000;
+  margin-right: 8px;
+  padding: 7px 14px;
+  border-radius: 4px;
+  background-color: #660000;
+  box-shadow: 1px 1px 4px #330000;
+  outline: none;
+  cursor: pointer; 
+}
+
+.login_logout:hover{
+  transition: 0.3s;
+  background-color: #ff3333;
+}
+
+.login_logout:active{
+  background-color: #ff3333;
+  box-shadow: 1px 1px 4px #1a0000;
+  transform: translateY(2px);
+}
+
+#registrati{
+  text-decoration: none;
+  font-size: 13.3333px;
+  color: #dfdfdf;
+  border: 2px outset #4d0000;
+  margin-right: 30px;
+  padding: 7px 12px;
+  border-radius: 4px;
+  background-color: #660000;
+  box-shadow: 1px 1px 4px #330000;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  top: 7px;
+}
+
+#registrati:hover{
+  transition: 0.3s;
+  background-color: #ff3333;
+}
+
+#registrati:active{
+  background-color: #ff3333;
+  box-shadow: 1px 1px 4px #1a0000;
+  transform: translateY(2px);
+}
+
+#logout{
+  margin-right: 40px;
+  position: relative;
+  top: -17px;
+}
+
+.toright{
+  float: right;
+}
+
+.toleft{
+  float: left;
+}
+
+.loginerror{
+  font-size: 80%;
+  height: 2.4em;
+}
+
+#profilebtn{
+  margin-top: -20px;
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 13.3333px;
+  color: #dfdfdf;
+  padding: 8px 40px;
+  background-color: #660000;
+  border: 2px outset #4d0000;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px #330000;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#profilebtn:hover{
+  background-color: #ff3333;
+}
+
+#profilebtn:hover span {
+  padding-right: 25px;
+}
+
+#profilebtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#profilebtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#profilebtn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+/**/

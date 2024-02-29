@@ -1,0 +1,19 @@
+#footer{
+  	width: 100%;
+	clear: both;
+	margin-top: 150px;
+  	background-color: #333;
+  	height: 7em;
+}
+
+.parcentro{
+	padding-top: 10px;
+	font-family: 'Roboto';
+	font-size: 0.8em;
+	text-align: center;
+	color: red;
+}
+
+.parcentro a{
+	color: red;
+}

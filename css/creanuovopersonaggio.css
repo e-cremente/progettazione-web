@@ -1,0 +1,710 @@
+.etichetta{
+  width: 50%;
+  display: inline-block;
+}
+
+.divscheda{
+  width: 50%;
+  float: left;
+}
+
+.black{
+  color: black;
+}
+
+.divsalvataggio{
+  float: left;
+  width: 100%;
+}
+
+.divsalvataggio div{
+  float: left;
+  margin-top: 20px;
+}
+  
+.saveerror{
+  display: inline;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin: 0px;
+  color: darkred;
+}
+
+#tableindication{
+  margin-bottom: 20px;
+}
+
+.tabellacaratteristiche{
+  margin-top: 330px;
+}
+
+#caratteristiche{
+  border-collapse: collapse;
+}
+
+#caratteristiche th, #caratteristiche td{
+ /* width: 100%;*/
+  padding: 1%;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+}
+
+#caratteristiche .tabellariga input{
+  width: 100%;
+  font-size: 23px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+#caratteristiche .tabellariga .secondario input{
+  font-size: 12px;
+}
+
+#caratteristiche .forza{
+  background-image: linear-gradient(to right, red , #ffe6e6);
+}
+
+#caratteristiche .dex{
+  background-image: linear-gradient(to right, lightblue , #e6ffff);
+}
+
+#caratteristiche .cos{
+  background-image: linear-gradient(to right, grey , #e6e6e6);
+}
+
+#caratteristiche .int{
+  background-image: linear-gradient(to right, yellow , #ffffe6);
+}
+
+#caratteristiche .sag{
+  background-image: linear-gradient(to right, green , #ccffcc);
+}
+
+#caratteristiche .car{
+  background-image: linear-gradient(to right, #ff6680 , #ffe6ea);
+}
+
+#caratteristiche .tabellariga th{
+  width: 1%;
+  padding: 3px;
+}
+
+#caratteristiche .tabellariga td{
+  width: 8%;
+}
+
+#caratteristiche .titolocella{
+  border-right-style: none;
+  padding: 0;
+  width: 80%;
+}
+
+#caratteristiche #forza{
+  background-color: red;
+}
+
+#caratteristiche #destrezza{
+  background-color: lightblue;
+}
+
+#caratteristiche #costituzione{
+  background-color: grey;
+}
+
+#caratteristiche #intelligenza{
+  background-color: yellow;
+}
+
+#caratteristiche #saggezza{
+  background-color: green;
+}
+
+#caratteristiche #carisma{
+  background-color: #ff6680;
+}
+
+#caratteristiche .cellavalore{
+  border-left-style: none; 
+}
+
+#caratteristiche .cellavaloreforzasx{
+  border-right-style: none;
+  padding-right: 0;
+}
+
+#caratteristiche .cellavaloreforzadx{
+  border-left-style: none;
+  padding-left: 0;
+}
+
+#campiobbligatori{
+  margin-top: 3%;
+  float: right;
+  color: red;
+  padding: 3px;
+  border: 1px solid red;
+}
+
+span.obbligatorio{
+  color: red;
+}
+
+/*.divclassearmatura{
+  width: 20%;
+  float: left;
+}*/
+
+.divclassearmatura div{
+  padding-top: 10px;
+}
+
+.divclassearmatura div.etichetta{
+  text-align: center;
+  font-family: 'Roboto Bold';
+}
+
+.divclassearmatura input{
+  padding-top: 5px;
+  font-size: 25px;
+  width: 40px;
+  text-align: center;
+}
+
+.divcacentro{
+  padding-top: 15px;
+  width: 50%;
+  float: left;
+}
+
+.divcadestra{
+  padding-top: 15px;
+  width: 50%;
+  float: left;
+}
+
+#CA{
+  width: 10%;
+}
+
+#difese{
+  width: 90%;
+}
+
+.divtabellats{
+  width: 35%;
+  margin: auto;
+}
+
+#tabellats .tabellariga #titolotabella{
+  font-size: 26px;
+}
+
+#tabellats input{
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#tabellats .inputlabel{
+  font-weight: normal;
+}
+
+textarea#difese{
+  resize: none;
+}
+
+#tabpuntiferita{
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#tabpuntiferita th{
+  font-size: 28px;
+}
+
+#tabpuntiferita input{
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.divcombattimento{
+  margin-top: 50px;
+}
+
+table#tabcombattimento {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table#tabcombattimento tr.tabellariga.combattimento{
+  background-color: red;
+  color: white;
+}
+
+table#tabcombattimento th, table#tabcombattimento td{
+  border: solid black 2px;
+}
+
+table#tabcombattimento input {
+  width: 96.7%;
+  text-align: center;
+}
+
+table#tabcombattimento button {
+  width: 96.7%;
+  margin-top: 0px;
+}
+
+caption{
+  padding-bottom: 20px;
+  font-size: 2em;
+}
+
+div.configarmi div {
+  float: left;
+  width: 25%;
+  padding-top: 50px;
+  padding-left: 15px;
+}
+
+.configarmi .divbutton{
+  width: 10%;
+}
+
+.configarmi .divparagrafo{
+  width: 35%;
+}
+
+div.configarmi div.etichetta{
+  text-align: center;
+  padding-top: 0px;
+}
+
+.removebutton{
+  background: url(../img/redX.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 22px;
+  border: none;
+}
+
+.divproficienzearmi{
+  margin-top: 130px;
+}
+
+table#tabproficienzearmi {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table#tabproficienzearmi tr.tabellariga.combattimento{
+  background-color: red;
+  color: white;
+}
+
+table#tabproficienzearmi th, table#tabproficienzearmi td{
+  border: solid black 2px;
+}
+
+table#tabproficienzearmi input {
+  width: 96.7%;
+  text-align: center;
+}
+
+table#tabproficienzearmi button {
+  width: 96.7%;
+  margin-top: 0px;
+}
+
+/*separazione tra tabproficienzearmi e tabproficienze*/
+
+.divproficienze{
+  margin-top: 40px;
+}
+
+table#tabproficienze {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table#tabproficienze tr.tabellariga.proficienze{
+  background-color: orange;
+  color: white;
+}
+
+table#tabproficienze th, table#tabproficienze td{
+  border: solid black 2px;
+}
+
+table#tabproficienze input {
+  width: 96.7%;
+  text-align: center;
+}
+
+table#tabproficienze button {
+  width: 96.7%;
+  margin-top: 0px;
+}
+
+#cbproficienze{
+  margin-left: 15px;
+}
+
+/*da qui inizia tabtratti*/
+
+.divcontenitoretrattiesvantaggi{
+  display: table;
+  width: 100%;
+  margin-top: 130px;
+}
+
+.divtrattiesvantaggi{
+  width: 100%;
+  display: table-row;
+}
+
+.divtratti{
+  width: 50%;
+  display: table-cell;
+}
+
+.tratti .divcombobox{
+  width: 50%;
+}
+
+.tratti .divparagrafo{
+  width: 100%;
+  padding-top: 10px;
+}
+
+table#tabtratti {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table#tabtratti tr.tabellariga.tratti{
+  background-color: yellow;
+  color: black;
+}
+
+table#tabtratti th, table#tabtratti td{
+  border: solid black 2px;
+}
+
+table#tabtratti input {
+  width: 96.7%;
+  text-align: center;
+}
+
+table#tabtratti button {
+  width: 96.7%;
+  margin-top: 0px;
+}
+
+/*da qui inizia tabsvantaggi*/
+
+.divsvantaggi{
+  width: 50%;
+  display: table-cell;
+}
+
+table#tabsvantaggi {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table#tabsvantaggi tr.tabellariga.svantaggi{
+  background-color: yellow;
+  color: black;
+}
+
+table#tabsvantaggi th, table#tabsvantaggi td{
+  border: solid black 2px;
+}
+
+table#tabsvantaggi input {
+  width: 96.7%;
+  text-align: center;
+}
+
+table#tabsvantaggi button {
+  width: 96.7%;
+  margin-top: 0px;
+}
+
+.svantaggi .divcombobox{
+  width: 50%;
+}
+
+.svantaggi .divcombobox .etichetta{
+  padding-right: 20px;
+}
+
+.svantaggi .divparagrafo{
+  width: 100%;
+  padding-top: 10px;
+}
+
+/*da qui inizia tababilitadirazza*/
+
+.divcontenitoreabilitarazzaeclasse{
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.divabilitarazzaeclasse{
+  width: 100%;
+  display: table-row;
+}
+
+.divabilitadirazza{
+  width: 50%;
+  display: table-cell;
+}
+
+.abrazza .divcombobox{
+  width: 70%;
+}
+
+.abrazza .divparagrafo{
+  width: 100%;
+  padding-top: 10px;
+}
+
+table#tababilitadirazza {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table#tababilitadirazza tr.tabellariga.abrazza{
+  background-color: grey;
+  color: white;
+}
+
+table#tababilitadirazza th, table#tababilitadirazza td{
+  border: solid black 2px;
+}
+
+table#tababilitadirazza input {
+  width: 96.7%;
+  text-align: center;
+}
+
+table#tababilitadirazza button {
+  width: 96.7%;
+  margin-top: 0px;
+}
+
+/*da qui inizia tababilitadiclasse*/
+
+.divabilitadiclasse{
+  width: 50%;
+  display: table-cell;
+}
+
+table#tababilitadiclasse {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table#tababilitadiclasse tr.tabellariga.abclasse{
+  background-color: grey;
+  color: white;
+}
+
+table#tababilitadiclasse th, table#tababilitadiclasse td{
+  border: solid black 2px;
+}
+
+table#tababilitadiclasse input {
+  width: 96.7%;
+  text-align: center;
+}
+
+table#tababilitadiclasse button {
+  width: 96.7%;
+  margin-top: 0px;
+}
+
+.abclasse .divcombobox{
+  width: 70%;
+}
+
+.abclasse .divparagrafo{
+  width: 100%;
+  padding-top: 10px;
+}
+
+/*da qui inizia tabstilicombattimento*/
+
+.divstilicombattimento{
+  margin-top: 40px;
+}
+
+table#tabstilicombattimento {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table#tabstilicombattimento tr.tabellariga.stilicomb{
+  background-color: red;
+  color: white;
+}
+
+table#tabstilicombattimento th, table#tabstilicombattimento td{
+  border: solid black 2px;
+}
+
+table#tabstilicombattimento input {
+  width: 96.7%;
+  text-align: center;
+}
+
+table#tabstilicombattimento button {
+  width: 96.7%;
+  margin-top: 0px;
+}
+
+#tabinfogeneriche{
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#tabinfogeneriche th{
+  font-size: 20px;
+}
+
+#tabinfogeneriche input{
+  text-align: center;
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+#tabricchezze{
+  margin: auto;
+}
+
+#tabricchezze input{
+  text-align: center;
+}
+
+#tababilitaladri input{
+  width: 97%;
+  text-align: center;
+}
+
+#tababilitaladri{
+  border-collapse: collapse;
+}
+
+#tababilitaladri .colonnaladri{
+  width: 240px;
+}
+
+#tababilitaladri .bordo{
+  border: 1px solid black;
+}
+
+#tababilitaladri .azzurro{
+  background-color: lightblue;
+}
+
+#tababilitaladri .blu{
+  background-color: blue;
+}
+
+#tababilitaladri .testodestra{
+  text-align: right;
+}
+
+table#tabincantesimi {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table#tabincantesimi tr.tabellariga.incantesimi{
+  background-color: #800000;
+  color: white;
+}
+
+table#tabincantesimi th, table#tabincantesimi td{
+  border: solid black 2px;
+}
+
+table#tabincantesimi input {
+  width: 96.7%;
+  text-align: center;
+}
+
+table#tabincantesimi button {
+  width: 96.7%;
+  margin-top: 0px;
+}
+
+.configincantesimi{
+  margin-top: 30px;
+}
+
+.configincantesimi .divbutton{
+  float: left;
+}
+
+.titoloequipaggiamento{
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#equipaggiamento{
+  margin: 0px;
+  width: 100%;
+  height: 300px;
+  background-color: lightgray;
+  resize: none;
+}
+
+.divbuttonelimina {
+  clear: both;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 44%;
+}
+
+#BtnEliminaPersonaggio{
+  color: #dfdfdf;
+  border: 2px outset #4d0000;
+  padding: 12px 19px;
+  border-radius: 4px;
+  background-color: #660000;
+  box-shadow: 1px 1px 4px #330000;
+  outline: none;
+  cursor: pointer; 
+}
+
+#BtnEliminaPersonaggio:hover{
+  transition: 0.3s;
+  background-color: #ff3333;
+}
+
+#BtnEliminaPersonaggio:active{
+  background-color: #ff3333;
+  box-shadow: 1px 1px 4px #1a0000;
+  transform: translateY(2px);
+}

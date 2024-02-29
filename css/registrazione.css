@@ -1,0 +1,45 @@
+section.registrazione{
+	width: 25%;
+	margin: auto;
+	padding-bottom: 1.6%;
+	background-color: #dfdfdf;
+	border-radius: 20px;
+	box-shadow: 10px 10px 15px #660000; 
+}
+
+section.registrazione h1 {
+	padding-top: 25px;
+	text-align: center;
+	font-family: 'Old London';
+	font-size: 400%;
+}
+
+section.registrazione .form-registrazione{
+	text-align: center;
+	font-family: 'Roboto';
+}
+
+section.registrazione .reginput{
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	border: 4px inset;
+  	border-color: #ffcccc;  
+  	outline: none;
+  	border-radius: 5px;
+  	padding: 6px 35px 6px 5px;
+}
+
+section.registrazione .reginput:focus{
+  transition: 0.5s;
+  border-color: red;
+}
+
+section.registrazione .message_error{
+	text-align: center;
+}
+
+section.registrazione .text_message{
+	text-align: center;
+	color: green;
+}

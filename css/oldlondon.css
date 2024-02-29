@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Old London Alternate';
+    src: url('../fonts/OldLondon/OldLondonAlternate.woff2') format('woff2'),
+        url('../fonts/OldLondon/OldLondonAlternate.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Old London';
+    src: url('../fonts/OldLondon/OldLondon.woff2') format('woff2'),
+        url('../fonts/OldLondon/OldLondon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Old London 2';
+    src: url('../fonts/OldLondon/OldLondon_1.woff2') format('woff2'),
+        url('../fonts/OldLondon/OldLondon_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Old London Alternate 2';
+    src: url('../fonts/OldLondon/OldLondonAlternate_1.woff2') format('woff2'),
+        url('../fonts/OldLondon/OldLondonAlternate_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,91 @@
+.containermanuali{
+	width: 90%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.divmanuale{
+	margin-top: 50px;	
+	width: 20%;
+	display: inline-block;
+}
+
+.imgmanuale{
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 10px;
+}
+
+.imgcaption{
+  color: #dfdfdf;
+  border: 2px outset #4d0000;
+  margin-right: 8px;
+  padding: 7px 14px;
+  border-radius: 4px;
+  background-color: #660000;
+  box-shadow: 1px 1px 4px #330000;
+  text-decoration: none;
+  font-size: 1vw;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.imgcaption:hover{
+  transition: 0.3s;
+  background-color: #ff3333;
+}
+
+.imgcaption:active{
+  background-color: #ff3333;
+  box-shadow: 1px 1px 4px #1a0000;
+  transform: translateY(2px);
+}
+
+.captiongiocatore{
+	margin-left: 18%;
+}
+
+.captionabilitaepoteri{
+	margin-left: 28%;
+}
+
+.captionincantesimiemagia{
+	margin-left: 22%;
+}
+
+.captionmaghieladri{
+	margin-left: 27%;
+}
+
+.captionguerrieriepreti{
+	margin-left: 24%;
+}
+
+.captioncampaignset{
+	margin-left: 28.5%;
+}
+
+.captioncampaignsetrevised{
+	margin-left: 20%;
+}
+
+.captiondemihumandeities{
+	margin-left: 22%;
+}
+
+.captionfaithavatars{
+	margin-left: 27%;
+}
+
+.captionpowerspantheons{
+	margin-left: 20%;
+}
+
+.captionpriest1, .captionpriest2, .captionpriest3{
+	margin-left: 24.5%;
+}
+
+.captionwizard1, .captionwizard2, .captionwizard3, .captionwizard4{
+	margin-left: 23%;
+}

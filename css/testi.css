@@ -1,0 +1,75 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+/*
+#contenuto{
+	color: lightgrey;
+}
+*/
+.message_error{
+  	margin: 0px;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
+	color: red;
+}
+
+.text_message{
+	margin: 0px;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
+}
+
+.centro{
+	text-align: center;
+	width: 75%;
+	margin: auto;
+}
+
+#titoloindex{
+	font-family: 'Roboto';
+	font-size: 400%;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+#adnd{
+	font-family: 'Old London Alternate';
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#sottotitolo{
+	font-family: 'Roboto Italic';
+	font-style: italic;
+	font-size: 120%;
+	margin-top: 23px;
+}
+
+.sezione{
+	width: 75%;
+	margin: auto;
+
+}
+
+.titolo_due{
+	font-family: 'Roboto';
+	font-size: 200%;
+	margin-top: 50px;
+}
+
+.paragrafo{
+	font-family: 'GeosansLight', sans-serif;
+	font-weight: bold;
+	font-size: 130%;
+}
+
+.paragrafo a{
+	color: black;
+}
+
+.paragrafo a:active{
+	color: red;
+}

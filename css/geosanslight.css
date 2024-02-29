@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'GeosansLight Italic';
+    src: url('../fonts/GeosansLight/GeosansLight-Oblique.woff2') format('woff2'),
+        url('../fonts/GeosansLight/GeosansLight-Oblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GeosansLight';
+    src: url('../fonts/GeosansLight/GeosansLight.woff2') format('woff2'),
+        url('../fonts/GeosansLight/GeosansLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+

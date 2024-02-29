@@ -1,0 +1,57 @@
+.profilo{
+	font-family: 'Roboto';
+	font-size: 3em;
+	text-align: center;
+}
+
+.personalinfo{
+	width: 20%;
+	margin: auto;
+	margin-bottom: 50px;
+	padding-bottom: 0.5%;
+	padding-left: 1.6%;
+	padding-right: 1.6%;
+	background-color: #dfdfdf;
+	border-radius: 20px;
+	box-shadow: 10px 10px 15px #660000; 
+}
+
+.personalinfo .etichetta{
+	width: 25%;
+}
+
+.personalinfo input{
+	width: 68%;
+	text-align: center;
+	border: 4px inset;
+  	border-color: #ffcccc;  
+  	outline: none;
+  	border-radius: 5px;
+  	padding: 6px 6px;
+}
+
+.personalinfo input:focus{
+  transition: 0.5s;
+  border-color: red;
+}
+
+.personalinfo .inputcontainer{
+	margin-top: 10px;
+}
+
+.personalinfo .divbutton{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.personalinfo .divparagrafo{
+	padding-top: 8px;
+}
+
+.verde{
+  display: inline;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin: 0px;
+  color: green;
+}
