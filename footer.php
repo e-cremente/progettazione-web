@@ -9,7 +9,7 @@
 			<br>
 				E-Mail: <a href="mailto: edoardo.cremente@tiscali.it">edoardo.cremente@tiscali.it</a>
 			<br>
-				Telefono: 3339985564
+				Telefono: 0000000000
 			<br>
 				Il sito &egrave; stato realizzato per l'esame di Progettazione Web dell'Universit&agrave; di Pisa. Nonostante questo, sentitevi liberi di usufruirne in tutte le sue funzionalit&agrave;.
 			</p>
