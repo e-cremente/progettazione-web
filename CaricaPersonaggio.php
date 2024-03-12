@@ -6,6 +6,23 @@
     $gvPersonaggio = new clsPersonaggio($lvIdPersonaggio);
 //echo "<pre>";print_r($gvPersonaggio->pg_abilitaladri);echo "</pre>";
 
+/*
+Qui di seguito, il famoso "switch" incriminante. Nonostante le dimensioni del progetto e la sua difficoltà, questo enorme switch (che purtroppo logicamente
+non nacque enorme, ma lo diventò prima di potermene accorgere) fu il colpevole che causò la rapida decaduta del mio voto in questo esame (breve storia triste,
+l'assistente del professore aprì il progetto casualmente direttamente su questo file, per cui fu la prima cosa che vide, e ci si focalizzò... sfortuna)!
+Il motivo per cui lo lasciai così al tempo, detto francamente, fu la stanchezza che avevo addosso dopo aver lavorato per 4 mesi a questo progetto ininterrottamente
+sapendo dentro di me che avrei dovuto fare una miriade di altri esami sia contemporaneamente, che dopo questo. Non avevo le forze per cambiarlo.
+
+Sicuramente dovessi rifarlo oggi non mi permetterei mai di lasciare intatta una cosa del genere. Ideare un modo alternativo per realizzarlo in funzione di questo
+progetto è "difficile", nel senso che cambiando questo switch probabilmente crollerebbe tutto, ma molte sono le cose che andrebbero cambiate.
+
+L'idea più ovvia che mi viene in mente sarebbe quella di affrontare il problema con un approccio a oggetti, creando una classe che si prenda il personaggio dal database
+(come peraltro ho fatto anche qui, nel codice poco più su di questo commento), e poi usare i campi della classe in modo molto più efficiente.
+Potrei creare un oggetto della classe personaggio che sia "globale" e statico, in modo tale che possa esserne creata una sola istanza, in base all'id
+del personaggio di cui sono interessato. Una volta creata questa classe mi basterebbe chiamare i relativi metodi getter per prenderne i campi, direttamente in quei
+punti in cui mi servono, anziché chiamare la funzione getValue che da vita e alimenta questo orribile switch.
+*/
+
     function getValue($pNomeCampo) {
         global $gvPersonaggio;
         if ($gvPersonaggio == null) return null;
