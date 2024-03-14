@@ -13,14 +13,42 @@ l'assistente del professore aprì il progetto casualmente direttamente su questo
 Il motivo per cui lo lasciai così al tempo, detto francamente, fu la stanchezza che avevo addosso dopo aver lavorato per 4 mesi a questo progetto ininterrottamente
 sapendo dentro di me che avrei dovuto fare una miriade di altri esami sia contemporaneamente, che dopo questo. Non avevo le forze per cambiarlo.
 
-Sicuramente dovessi rifarlo oggi non mi permetterei mai di lasciare intatta una cosa del genere. Ideare un modo alternativo per realizzarlo in funzione di questo
-progetto è "difficile", nel senso che cambiando questo switch probabilmente crollerebbe tutto, ma molte sono le cose che andrebbero cambiate.
+Sicuramente dovessi rifarlo oggi non mi permetterei mai di lasciare intatta una cosa del genere. Ne andrebbe della salute mentale sia mia che dei miei eventuali
+collaboratori.
 
-L'idea più ovvia che mi viene in mente sarebbe quella di affrontare il problema con un approccio a oggetti, creando una classe che si prenda il personaggio dal database
-(come peraltro ho fatto anche qui, nel codice poco più su di questo commento), e poi usare i campi della classe in modo molto più efficiente.
-Potrei creare un oggetto della classe personaggio che sia "globale" e statico, in modo tale che possa esserne creata una sola istanza, in base all'id
-del personaggio di cui sono interessato. Una volta creata questa classe mi basterebbe chiamare i relativi metodi getter per prenderne i campi, direttamente in quei
-punti in cui mi servono, anziché chiamare la funzione getValue che da vita e alimenta questo orribile switch.
+La soluzione di gran lunga più efficiente, e la prima che mi sento di proporre, è in realtà molto semplice.
+Il motivo stesso per cui ho avuto il bisogno di creare questo switch affinché il codice funzioni, è che da un lato ho una classe personaggio con i suoi campi, e 
+dall'altra ho delle caselle di testo (o simili) che vanno riempite, e che invocano la funzione "getValue". Il problema più grande, è che i nomi delle caselle di testo
+e quelli della classe non corrispondono, ossia non sono uguali. Se lo fossero stati, avremmo potuto usare un'interessante proprietà del php, che è quella di
+differenziare le variabili a partire dalle stringhe.
+Con una saggia rinominazione dei vari campi, avremmo potuto ridurre tutta questa funzione a letteralmente una riga di codice. Di seguito scrivo un breve 
+esempio per far capire cosa intendo:
+
+Anziché scrivere (i tre esempi presi di seguito possono essere visualizzati in PanelPersonaggio.php)
+...
+case 'race': return $gvPersonaggio->Razza; break;
+case 'cls': return $gvPersonaggio->Classe; break;
+case 'secondaryclass': return $gvPersonaggio->Classi_Secondarie; break;
+...
+
+Se i nomi delle varie caselle di testo fossero stati coerenti con i campi della classe, avrei semplicemente potuto scrivere
+
+function getValue($pNomeCampo) {
+        global $gvPersonaggio;
+        if ($gvPersonaggio == null) return null;
+        return $gvPersonaggio->$pNomeCampo;
+}
+
+eliminando totalmente queste centinaia e centinaia di righe di switch.
+
+Se volessimo trovare una seconda soluzione al problema, avrei potuto rendere l'oggetto della classe clsPersonaggio una variabile di sessione globale, così da
+poter prendere direttamente il valore dei campi della classe lì dove serve, magari con dei metodi getter, anziché ricorrere alla chiamata della funzione getValue.
+
+In ogni caso, il semplice fatto di non aver avuto l'accortezza di nominare i campi testuali con gli stessi nomi dei campi della classe risalta l'inesperienza che avevo
+nel 2018-2019.
+
+Come menzionato nel portfolio, non ho comunque voluto apportare modifiche al codice in sé cosicché possa anche risaltare l'inesperienza che avevo al tempo e l'evoluzione
+negli anni da questo progetto, fin troppo ambizioso, all'ultimo.
 */
 
     function getValue($pNomeCampo) {
